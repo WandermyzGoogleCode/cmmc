@@ -7,8 +7,8 @@
     <th>End</th>
     <th>Location</th>
     <th>Extra info</th>
+    <th>RRULE</th>
     <th>Creator</th>
-    <th></th>
     <th></th>
     <th></th>
   </tr>
@@ -20,6 +20,7 @@
     <td><%= event.end %></td>
     <td><%= event.location %></td>
     <td><%= event.extra_info %></td>
+    <td><%= event.rrule %></td>
     <td><%= event.creator_id %></td>
     <td><%= link_to 'Show', event %></td>
     <td><%= link_to 'Edit', edit_event_path(event) %></td>
