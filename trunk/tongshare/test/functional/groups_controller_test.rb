@@ -3,6 +3,7 @@ require 'test_helper'
 class GroupsControllerTest < ActionController::TestCase
   setup do
     @group = groups(:one)
+    @group.identifier = rand.to_s[0..15]
   end
 
   test "should get index" do
