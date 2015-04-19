@@ -1,0 +1,1 @@
+Instead of `LiveS3`, we need a name that's easy to type and remember. Firstly, CMMC is symmetric. Secondly, cmmcalendar.com/net are available while both Calendar and CMM(sounds like "See MM" and looks like CNN, so...) are easy to remember.
